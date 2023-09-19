@@ -28,7 +28,7 @@ const DataGrid = ({ rockets }) => {
         </div>
       ))}
       {selectedRocket && (
-        <Popup rocket={selectedRocket} onClose={handleClose} />
+        <Popup rocket={selectedRocket} onClose={handleClose}  />
       )}
     </div>
   );

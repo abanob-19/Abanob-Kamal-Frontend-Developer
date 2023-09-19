@@ -8,6 +8,7 @@ import Pagination from './components/Pagination';
 import { getRockets } from './api/spacex';
 import Loading from './components/Loading'; 
 import Error from './components/Error';
+
 const DataGrid = lazy(() => import('./components/DataGrid'));
 const App = () => {
   const [rockets, setRockets] = useState([]);

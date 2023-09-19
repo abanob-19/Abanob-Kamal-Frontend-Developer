@@ -13,7 +13,7 @@ const SearchFormByCompany = ({ onSearch }) => {
   };
 
   return (
-    <div className="search-form bg-blue-500 p-4 md:p-8">
+    <div className="search-form2 bg-blue-500 p-4 md:p-8">
       <input
         type="text"
         placeholder="Search by company..."
